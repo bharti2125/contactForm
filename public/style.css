@@ -1,0 +1,112 @@
+.content-form {
+    background-color: white;
+    height: max-content;
+    width: max-content;
+    padding: 30px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+}
+
+.heading {
+    font-weight: 700;
+}
+
+body {
+    background-color: rgb(193, 221, 211); 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.btn {
+    padding-left: 45%;
+    padding-right: 44%;
+    height: 40px;
+    width: 100%;
+    color: white;
+    background-color: rgb(36, 99, 36); 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+#message {
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(163, 157, 157);
+    width: 100%;
+}
+
+#message:hover {
+    border-color: green ;
+}
+
+.form-control {
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(163, 157, 157);
+    width: 100%; 
+    box-sizing: border-box; 
+}
+
+.form-control:hover {
+    border-color: green;
+    background-color: rgb(172, 240, 172);
+}
+
+#checkbox {
+    cursor: pointer;
+}
+.form-check-input {
+    cursor: pointer;
+}
+
+.invalid-feedback {
+    font-size: small;
+}
+
+.invalid-feedback {
+    font-size: small;
+    color: red;
+    display: none;
+}
+
+textarea.error {
+    border-color: red;
+}
+
+.invalid-feedback.active {
+    display: block;
+}
+
+.form-control.error {
+    border-color: red;
+}
+
+.form-control.error:hover {
+    background-color: rgb(255, 228, 228); 
+}
+
+.error {
+    border-color: red;
+  }
+  
+
+@media (min-width: 375px) and (max-width: 1300px) {
+    .content-form {
+        margin-left: 15%; 
+        width: 70%;
+    }
+   
+} 
+
+
